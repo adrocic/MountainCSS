@@ -8,7 +8,8 @@
 
 html {
     font: normal 16px "Quicksand", sans-serif;
-    color: #555
+    color: #555;
+    scroll-behavior: smooth;
 }
 
 
@@ -160,21 +161,24 @@ header nav li {
     height: 100%;
     background-size: cover;
     z-index: -1;
-    background-color: #80a3db;
+    background-color: #cccccc;
 }
 
 .hero h1 {
     font: bold 60px "Open Sans", sans-serif;
     margin-bottom: 15px;
+    text-shadow: -2px 2px 4px rgb(145, 145, 145);
 }
 
 .hero h3 {
     font: normal 28px "Open Sans", sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    text-shadow: -2px 2px 4px rgb(145, 145, 145);
 }
 
 .hero a.btn {
     padding: 20px 46px;
+    margin-bottom: 180px;
 }
 
 .hero-content-area {
@@ -207,10 +211,12 @@ header nav li {
 
     .hero h3 {
         font-size: 24px;
+        margin-bottom: 40px;
     }
 
     .hero a.btn {
         padding: 15px 40px;
+        margin-bottom: 0px;
     }
 }
 
